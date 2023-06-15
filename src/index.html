@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="bg-gray-100">
+
+    <header id="header" class="bg-gray-200 flex w-screen">
+        <img class="logo w-24 pr-5" src="/src/img/logo.png" alt="logo">
+        <nav class="w-screen menu flex justify-end text-blue-700 items-center mr-4 pr-20">
+            <a href="" class="m-4 hover:text-black font-semibold">Solicitar reserva</a>
+            <a href="" class="m-4 hover:text-black font-semibold">Sobre Nós</a>
+            <a href="" class="m-4 hover:text-black font-semibold">Fale conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="bg-cover bg-no-repeat" style="background-image: url(/src/img/hotel01.jpg);">
+            <section class="sect-f justify-center align-middle w-screen flex flex-col items-center backdrop-brightness-50">
+                <div class="flex flex-col pt-14 pb-14 text-white items-center">
+                    <h1 class="text-xl font-semibold ">Onde você quer ir?</h1>
+                    <p class="text-sm mb-7">Escolha o estado e cidade para achar os melhores resorts.</p>
+                    <div class="text-black flex flex-row items-center gap-3">
+                        <select name="estado" id="estado" class="px-4 py-2 rounded-sm text-gray-700 text-sm">
+                            <option value="Estado">Estado</option>
+                            <option value="MG">MG</option>
+                            <option value="SP">SP</option>
+                        </select>
+                        <select name="cidade" id="cidade" class="px-4 py-2 rounded-sm text-gray-700 text-sm">
+                            <option value="Cidade">Cidade</option>
+                            <option value="São Lourenço">São Lourenço</option>
+                            <option value="Caxambu">Caxambu</option>
+                        </select>
+                        <button class="bg-orange-500 text-sm font-semibold px-4 py-2 rounded-sm hover:bg-orange-700">BUSCAR</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="sect-r flex flex-row w-full align-middle items-center justify-center py-7 gap-8">
+            <div class="w-1/3">
+                <p class="text-sm text-gray-800">RESORT EM DESTAQUE</p>
+                <h1 class="text-lg">Ecoresort Praia do Forte Bahia</h1>
+                <p class="text-sm text-gray-800 mb-3 font-light">5 estrelas</p>
+                <p class="text-sm text-gray-800">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nam cumque provident quia. Alias aliquam vel odio! Pariatur, obcaecati incidunt! Esse provident praesentium 
+                    ullam non 
+                    fugiat distinctio, rem consequuntur et consectetur<br><br>Pariatur, obcaecati incidunt! Esse provident praesentium 
+                    ullam ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class=" shadow-xl bg-orange-500 text-sm font-semibold px-4 py-2 rounded-sm hover:bg-orange-700 mt-5 mb-3">SOLICITAR RESERVA</button>
+            </div>
+            
+            <img src="/src/img/hotel01.jpg" alt="hotel01" class="h-44 ml-28">
+        </section>
+
+        <section class="mx-4 flex flex-col text-center my-4 items-center">
+            <h1 class="font-semibold text-3xl w-full">CONHEÇA MAIS</h1>
+            <br>
+            <div class="grid grid-cols-4 gap-4 w-full">
+                <div class="h-auto col-span-2 row-span-2 bg-cover rounded-md" style="background-image: url(/src/img/hotel01.jpg)">
+                    <div class="backdrop-brightness-50 justify-end items-baseline flex flex-col end-0 align-bottom 
+                    h-full text-white text-left rounded-md">
+                        <p class="px-4 py-2">Beach Park Hotel</p>
+                    </div>
+                </div>
+                <div class="h-44 col-span-2 bg-cover rounded-md" style="background-image: url(/src/img/hotel01.jpg)">
+                    <div class="backdrop-brightness-50 justify-end items-baseline flex flex-col end-0 align-bottom 
+                    h-full text-white text-left rounded-md">
+                        <p class="px-4 py-2">Salinas do Mara Park</p>
+                    </div>
+                </div>
+                <div class="h-44 bg-cover rounded-md" style="background-image: url(/src/img/hotel01.jpg)">
+                    <div class="backdrop-brightness-50 justify-end items-baseline flex flex-col end-0 align-bottom 
+                    h-full text-white text-left rounded-md">
+                        <p class="px-4 py-2">Grand Hotel</p>
+                    </div>
+                </div>
+                <div class="h-44 bg-cover rounded-md" style="background-image: url(/src/img/hotel01.jpg)">
+                    <div class="backdrop-brightness-50 justify-end items-baseline flex flex-col end-0 align-bottom 
+                    h-full text-white text-left rounded-md">
+                        <p class="px-4 py-2">Royal Park</p>
+                    </div>
+                </div>                                
+            </div>
+            <button class="shadow-xl bg-orange-500 text-sm font-semibold px-4 py-2 rounded-sm hover:bg-orange-700 mt-8 mb-3 w-28">VEJA MAIS</button>
+        </section>
+        <br>
+        <section class="mb-10">
+            <h1 class="flex flex-col w-full items-center font-semibold text-3xl">PROMOÇÕES</h1>
+            <div class="p-4 grid grid-cols-3 gap-7 w-full">
+                <div class="rounded-md flex flex-col items-center text-center bg-gray-200">
+                    <h1 class="font-semibold border-b-2 border-orange-500 mt-5">FERIADO</h1>
+                    <p class="text-gray-800 p-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nemo </p>
+                    <div class="w-full bg-cover h-52 flex flex-col align-bottom rounded-b-md" style="background-image: url(/src/img/hotel01.jpg)">
+                        <div class="backdrop-brightness-50 h-full flex flex-col rounded-b-md items-center justify-end">
+                            <span class="text-white">a partir de</span> <span class="text-orange-500 font-semibold">R$300,00</span>
+                            <button class="shadow-xl bg-orange-500 text-sm font-semibold px-4 py-2 rounded-sm hover:bg-orange-700 mt-3 mb-3 w-24 text-white">APROVEITE</button></div>
+                        </div>
+                </div>
+                <div class="rounded-md flex flex-col items-center text-center bg-gray-200">
+                    <h1 class="font-semibold border-b-2 border-orange-500 mt-5">FERIADO</h1>
+                    <p class="text-gray-800 p-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nemo </p>
+                    <div class="w-full bg-cover h-52 flex flex-col align-bottom rounded-b-md" style="background-image: url(/src/img/hotel01.jpg)">
+                        <div class="backdrop-brightness-50 h-full flex flex-col rounded-b-md items-center justify-end">
+                            <span class="text-white">a partir de</span> <span class="text-orange-500 font-semibold">R$300,00</span>
+                            <button class="shadow-xl bg-orange-500 text-sm font-semibold px-4 py-2 rounded-sm hover:bg-orange-700 mt-3 mb-3 w-24 text-white">APROVEITE</button></div>
+                        </div>
+                </div>
+                <div class="rounded-md flex flex-col items-center text-center bg-gray-200">
+                    <h1 class="font-semibold border-b-2 border-orange-500 mt-5">FERIADO</h1>
+                    <p class="text-gray-800 p-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nemo </p>
+                    <div class="w-full bg-cover h-52 flex flex-col align-bottom rounded-b-md" style="background-image: url(/src/img/hotel01.jpg)">
+                        <div class="backdrop-brightness-50 h-full flex flex-col rounded-b-md items-center justify-end">
+                            <span class="text-white">a partir de</span> <span class="text-orange-500 font-semibold">R$300,00</span>
+                            <button class="shadow-xl bg-orange-500 text-sm font-semibold px-4 py-2 rounded-sm hover:bg-orange-700 mt-3 mb-3 w-24 text-white">APROVEITE</button></div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-row justify-center bg-gray-200 py-12 space-x-32 items-center">
+            <div>
+                <h1 class="font-bold text-5xl text-gray-500">Fale</h1>
+                <h1 class="font-bold text-5xl text-gray-500">Conosco</h1>
+            </div>
+            <div class="border-l-2 border-gray-400 pl-5">
+                <p class="font-semibold text-gray-500 pb-5">Segunda a sexta-feira, de 08:00 até 18:00</p>
+                <h1 class="font-semibold">(XX) XXXX-XXXX</h1>
+                <p class="text-gray-500 mb-3">Sujeito a tarifas da operadora</p>
+                <h1 class="font-semibold mb-3">hotel@hotel.com.br</h1>
+                <h1 class="font-semibold mb-3">(XX) XXXX-XXXX</h1>
+            </div>
+        </section>
+
+    </main>
+    <footer class="py-4 bg-gray-300 border-t-2 border-gray-400 w-screen flex flex-row items-center align-middle justify-center">
+        <p class="text-gray-400 text-sm">João Pedro Messssquita | 2023</p>
+    </footer>
+</body>
+</html>
