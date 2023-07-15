@@ -11,6 +11,8 @@
 
 ## About
 
+![](https://github.com/JoaoPedroMesquitaRS/Landing-page--HTML-CSS-TAILWIND-/blob/8e8a4aa728b5f873afdf502241181c6f9eb442aa/src/vid.gif)
+
 #### The website functionalities includes showing the best reserts and hotels at the moment and a "Contact Us" section.
 
 ## Setup
